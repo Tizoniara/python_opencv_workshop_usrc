@@ -35,7 +35,11 @@ Download this repository by clicking the big green 'Code' button towards the top
 ## Lesson 1
 In lesson 1, we'll be going over how to include OpenCV in your Python projects and some of the basics functions you can use with it.
 
+
 ## Lesson 1 - Challenge
+Be able to open and read both an image and a video of your choosing (can be taken off the Internet)
+
+## Lesson 1.1 - Challenge
 Take an image of your choice (could be from the Internet or your own) and perform the following operations in separate instances (so don't do everything at once to the poor image).
 
 - Rescale it to be half the original size
@@ -43,4 +47,17 @@ Take an image of your choice (could be from the Internet or your own) and perfor
 - Pass it through a greyscale, blur and then canny layer
 - Rotate it by 45 degrees
 
+## Lesson 2 -Challenge
+Choose an option:
+- Challenge: Instead of filtering for the heart, instead filter for a pentagon, look in the file folder!
+- Challenge: Draw the grid lines of the sudoku image by detecting the lines using a Hough transform. Use image sudoku.png from the Github.
+- Challenge: Determine the road lane lines from a given image an drawing line onto them.  Use the provided image lane_img.jpg from the Github as your testing image. 
+## Lesson 3 - Challenge
+- Consider `Faces/usrc_all.png` and `Faces/usrc_cropped.png`. Using the face detection in part 1, tune the face detection so that all the faces in the cropped version are accounted for and there are no extra faces in the uncropped version. (Except for the clock. Apparently the clock looks like a face.)
+- For each detected face (including the clock, I guess) use the imageFrame in `Faces/imageframe.png` to enframe the face, putting the resultant images into an output folder.
 
+
+## Lesson 4 - Challenge
+- Easy: Take a screenshot of yourself holding up 3 fingers in the hand tracking.
+- Medium: Develop a module that shows the pose points for a person on screen but ignores the points on their head.
+- Hard: Create a paint program that allows you to draw on screen based on how many fingers you're holding up.

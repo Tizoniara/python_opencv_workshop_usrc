@@ -15,6 +15,14 @@ capture = cv2.VideoCapture('..\Videos\dog.mp4')
 
 while True:
     isTrue,frame=capture.read()
+
+    #width,height = frame.size()
+
+
+    cv2.circle(frame,(500,500),40,(255,0,0),thickness=2)
+    cv2.imshow('Circle',frame)
+
+
     #show frame
     cv2.imshow('',frame)
 
